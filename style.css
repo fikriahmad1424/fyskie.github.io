@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.home{
+    color: #31776c; padding-right: 20px;
+}
+.home:hover{
+    color: white;
+}
+.saya{
+    color: #31776c; padding-right: 20px;
+}
+.saya:hover{
+    color: white;
+}
+.setting{
+    color: #31776c; padding-right: 20px;
+}
+.setting:hover{
+    color: white;
+}
+.kontak{
+    color: #31776c;
+}
+.kontak:hover{
+    color:white
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(66, 65, 65, 0.7)),url(bgc.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+.logo {
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #ebebeb;
+}
+nav u1 li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav u1 li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav u1 li a:hover {
+    color: #ececec;
+    transition: .4s;
+}
+.btn {
+    background: #31776c;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: #ffffff;
+    font-size: 75px;
+    margin: 10px 0px 10px;
+}
+h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4 {
+    color: #279a86;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.news form {width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.news form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #4a5e78;
+    outline: none;
+    border-radius: 30px;
+}
+.news form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #4d8074;
+    box-shadow: 0px 0px 5px #509c65, 0px 0px 15px #f1f2f1;
+    top: 6px;
+    right: 6px;
+}
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+}
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ .about-text h2 {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 75px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text h5{
+    color: #ff2121;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button {
+    background-color: #588296;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+.service {
+    background: #1d1c1c;
+    width: 100%;
+    padding: 100px 0;
+}
+.title h2 {
+    color: #ffffff;
+    font-size: 75px;
+    width: 1130px;
+    text-align: center;
+    margin: auto;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #4c6874;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+}
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #558d8d;
+}
+h5 {
+    color: #ffffff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button {
+    background-color: #558f8b;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #20b2aa;
+    cursor: pointer;
+}
+.kontak-saya {
+    width: 100%;
+    background: #191919;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.kontak-saya p{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.kontak-saya .button-dua {
+    background-color: #398379;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+.kontak-saya .button-dua:hover{
+    background-color: transparent;
+    border: 2px solid #2d8491;
+    cursor: pointer;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    line-height: 26px;
+}
+.sosial {
+    display: flex;
+}
+.sosial a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #31776c;
+    border-radius: 50%;
+    margin: 22px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.sosial a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+.end {
+    position: absolute;
+    color: #ffffff;
+    bottom: 35px;
+}
