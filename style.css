@@ -125,10 +125,17 @@ h4 {
     top: 6px;
     right: 6px;
 }
+.bd{
+    background-color: #191919;
+}
+.bs{
+    background: #1d1c1c;
+}
+.bk{
+    background: #191919;
+}
 .about {
     width: 100%;
-    padding: 100px 0px;
-    background-color: #191919;
 }
 
 .about img {
